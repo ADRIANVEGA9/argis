@@ -192,13 +192,15 @@ p {
     /*padding-top: 100px;*/
 }
 
-.download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+.sistemaCalidad-section {
+    background: url(../img/sistemaCalidad_bg.jpg) no-repeat center center scroll;
     background-color: #000;
     background-size: cover;
+    display: table;
+    height: auto;
+    padding: 100px 0;
+    text-align: left;
+    width: 100%;
 }
 
 .btn {
@@ -238,8 +240,17 @@ ul.banner-social-buttons {
 .arg .naranja {
     font-size: .5em;
 }
+.calidadR {
+    margin: 2em auto;
+    width: 80%;
+}
+.filosofiaR {
+    margin: 2em auto;
+    width: 80%;
+}
 .naranja {
     color: #EA5E2B;
+    font-weight: bold;
 }
 .tituloDown {
     position: relative;
@@ -249,7 +260,25 @@ ul.banner-social-buttons {
     position: relative;
     top: -1.5em;
 }
-#filosofia div {
+#calidad #calidadCont {
+    background: rgba(252, 252, 252, 0.4);
+    display: inline-block;
+    float: right;
+    margin-top: 0;
+    padding: 1em 1em 2em;
+    width: 100%;
+}
+#calidad #calidadCont section  {
+    text-align: center;
+}
+#calidad #calidadCont section article {
+    text-align: justify;
+}
+#calidad section {
+    margin: 0 auto;
+    width: 75%;
+}
+#filosofia #filosofiaCont {
     background: rgba(252, 252, 252, 0.4);
     display: inline-block;
     float: left;
@@ -272,7 +301,7 @@ ul.banner-social-buttons {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
-        background: #306088;
+        background:0 0 ;/*#306088*/
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
 
@@ -285,7 +314,7 @@ ul.banner-social-buttons {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
     .intro {
-        height: 100%;
+        height: auto%;
         padding: 0;
     }
 
@@ -296,11 +325,16 @@ ul.banner-social-buttons {
     .intro .intro-body .intro-text {
         font-size: 25px;
     }
-    .download-section {
-        padding: 100px 0;
+    .sistemaCalidad-section {
+    height: auto;
+    max-height: 100%;
+    padding: 0;
     }
-    #filosofia div{
-        margin-top: 10em;
+    #calidad #calidadCont{
+        width: 40%;
+    }
+    #filosofia #filosofiaCont{
+        margin-top: 5em;
         width: 40%;
     }
     #map {
