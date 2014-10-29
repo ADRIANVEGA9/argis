@@ -192,17 +192,6 @@ p {
     /*padding-top: 100px;*/
 }
 
-.sistemaCalidad-section {
-    background: url(../img/sistemaCalidad_bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    background-size: cover;
-    display: table;
-    height: auto;
-    padding: 100px 0;
-    text-align: left;
-    width: 100%;
-}
-
 .btn {
     text-transform: uppercase;
     font-weight: 400;
@@ -223,6 +212,27 @@ p {
     background-color: #219ab3;
 }
 
+.servicios-section {
+    background: url(../img/servicios_bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    background-size: cover;
+    display: table;
+    height: auto;
+    text-align: left;
+    width: 100%;
+}
+
+.sistemaCalidad-section {
+    background: url(../img/sistemaCalidad_bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    background-size: cover;
+    display: table;
+    height: auto;
+    padding: 100px 0;
+    text-align: left;
+    width: 100%;
+}
+
 ul.banner-social-buttons {
     margin-top: 0;
 }
@@ -240,6 +250,9 @@ ul.banner-social-buttons {
 .arg .naranja {
     font-size: .5em;
 }
+.block {
+    display: block;
+}
 .calidadR {
     margin: 2em auto;
     width: 80%;
@@ -247,6 +260,10 @@ ul.banner-social-buttons {
 .filosofiaR {
     margin: 2em auto;
     width: 80%;
+}
+.serviciosR {
+    margin: 2em auto;
+    width: 90%;
 }
 .naranja {
     color: #EA5E2B;
@@ -290,6 +307,35 @@ ul.banner-social-buttons {
     margin: 0 auto;
     width: 75%;
 }
+#servicios #serviciosCont {
+    background: rgba(252, 252, 252, 0.4);
+    display: inline-block;
+    float: left;
+    margin-top: 0;
+    padding: 1em 1em 2em;
+    width: 100%;
+}
+#servicios section {
+    display: inline-block;
+    font-size: .7em;
+    margin: 0 auto;
+    padding: 0 2em;
+    text-align: center;
+    vertical-align: top;
+    width: 90%;
+}
+#serviciosCont section article span {
+    padding: 1em 0;
+}
+#serviciosCont section article {
+    padding: 2em .5em 1em;
+    background: rgba(163, 209, 242, 0.3);
+    border-radius: .5em;
+}
+#serviciosCont section img {
+    border-radius: .5em;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, .4);
+}
 #map {
     width: 100%;
     height: 200px;
@@ -325,10 +371,15 @@ ul.banner-social-buttons {
     .intro .intro-body .intro-text {
         font-size: 25px;
     }
+    .servicios-section {
+        height: auto;
+        max-height: 100%;
+        padding: 0;
+    }
     .sistemaCalidad-section {
-    height: auto;
-    max-height: 100%;
-    padding: 0;
+        height: auto;
+        max-height: 100%;
+        padding: 0;
     }
     #calidad #calidadCont{
         width: 40%;
@@ -336,6 +387,12 @@ ul.banner-social-buttons {
     #filosofia #filosofiaCont{
         margin-top: 5em;
         width: 40%;
+    }
+    #servicios #serviciosCont{
+        width: 100%;
+    }
+    #servicios section{
+        width: 16%;
     }
     #map {
         height: 400px;
