@@ -263,6 +263,7 @@ ul.banner-social-buttons {
 }
 .serviciosR {
     margin: 2em auto;
+    text-align: left;
     width: 90%;
 }
 .naranja {
@@ -312,29 +313,33 @@ ul.banner-social-buttons {
     display: inline-block;
     float: left;
     margin-top: 0;
-    padding: 1em 1em 2em;
     width: 100%;
 }
 #servicios section {
     display: inline-block;
     font-size: .7em;
     margin: 0 auto;
-    padding: 0 2em;
     text-align: center;
     vertical-align: top;
-    width: 90%;
+    width: 100%;
 }
 #serviciosCont section article span {
     padding: 1em 0;
 }
 #serviciosCont section article {
-    padding: 2em .5em 1em;
     background: rgba(163, 209, 242, 0.3);
     border-radius: .5em;
+    display: inline-block;
+    margin: 0 0 2em 1em;
+    padding: 0 .5em 1em;
+    vertical-align: top;
+    width: 75%;
 }
 #serviciosCont section img {
     border-radius: .5em;
     box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, .4);
+    position: relative;
+    z-index: 10;
 }
 #map {
     width: 100%;
@@ -390,6 +395,15 @@ ul.banner-social-buttons {
     }
     #servicios #serviciosCont{
         width: 100%;
+        text-align: center;
+    }
+    #serviciosCont section article {
+        margin: 0;
+        padding: 2em .5em 1em;
+        position: relative;
+        top: -2.5em;
+        width: 78%;
+        z-index: 1;
     }
     #servicios section{
         width: 16%;
