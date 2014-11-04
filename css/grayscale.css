@@ -187,6 +187,14 @@ p {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+.clientes-section {    
+    background-color: #FEFEFE;
+    background-size: cover;
+    display: table;
+    height: auto;
+    text-align: left;
+    width: 100%;
+}
 
 .content-section {
     /*padding-top: 100px;*/
@@ -257,6 +265,11 @@ ul.banner-social-buttons {
     margin: 2em auto;
     width: 80%;
 }
+.clientesR {
+    margin: 2em auto;
+    text-align: left;
+    width: 90%;
+}
 .filosofiaR {
     margin: 2em auto;
     width: 80%;
@@ -296,6 +309,30 @@ ul.banner-social-buttons {
     margin: 0 auto;
     width: 75%;
 }
+#clientes #clientesCont {
+    background: rgba(252, 252, 252, 0.4);
+    display: inline-block;
+    float: left;
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+}
+#clientesCont figure {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+#clientesCont figure figcaption {
+    font-size: .8em;
+    padding: 1em 0;
+}
+#clientesCont figure img {
+    border-radius: .5em;
+    box-shadow: 0px 23px 22px 1px rgba(0, 0, 0, .4);
+    margin: 0 0 1em 0;
+    position: relative;
+    z-index: 10;
+}
 #filosofia #filosofiaCont {
     background: rgba(252, 252, 252, 0.4);
     display: inline-block;
@@ -308,19 +345,19 @@ ul.banner-social-buttons {
     margin: 0 auto;
     width: 75%;
 }
-#servicios #serviciosCont {
-    background: rgba(252, 252, 252, 0.4);
-    display: inline-block;
-    float: left;
-    margin-top: 0;
-    width: 100%;
-}
 #servicios section {
     display: inline-block;
     font-size: .7em;
     margin: 0 auto;
     text-align: center;
     vertical-align: top;
+    width: 100%;
+}
+#servicios #serviciosCont {
+    background: rgba(252, 252, 252, 0.4);
+    display: inline-block;
+    float: left;
+    margin-top: 0;
     width: 100%;
 }
 #serviciosCont section article span {
@@ -346,6 +383,8 @@ ul.banner-social-buttons {
     height: 200px;
     margin-top: 100px;
 }
+
+
 
 @media(min-width:767px) {
     .navbar {
@@ -388,6 +427,13 @@ ul.banner-social-buttons {
     }
     #calidad #calidadCont{
         width: 40%;
+    }
+    #clientes #clientesCont{
+        width: 100%;
+        text-align: center;
+    }
+    #clientesCont figure {
+        width: 30%;
     }
     #filosofia #filosofiaCont{
         margin-top: 5em;
