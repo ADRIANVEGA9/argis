@@ -199,6 +199,18 @@ p {
 .content-section {
     /*padding-top: 100px;*/
 }
+.contacto-section img{
+    width: 97%;
+}
+/*.contacto-section {
+    background: url(../img/contact_bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    background-size: cover;
+    display: table;
+    height: auto;
+    text-align: left;
+    width: 100%;
+}*/
 
 .btn {
     text-transform: uppercase;
@@ -328,7 +340,7 @@ ul.banner-social-buttons {
 }
 #clientesCont figure img {
     border-radius: .5em;
-    box-shadow: 0px 23px 22px 1px rgba(0, 0, 0, .4);
+    box-shadow: 0px 84px 25px -21px rgba(0, 0, 0, 0.2);
     margin: 0 0 1em 0;
     position: relative;
     z-index: 10;
@@ -344,6 +356,17 @@ ul.banner-social-buttons {
 #filosofia section {
     margin: 0 auto;
     width: 75%;
+}
+#logoARG {
+    display: none;
+}
+#logoARG section {
+    padding: 0;
+    margin: 0;  
+    width: auto;  
+}
+#logoARG section  span {
+    font-size: .5em;
 }
 #servicios section {
     display: inline-block;
@@ -381,17 +404,45 @@ ul.banner-social-buttons {
 #map {
     width: 100%;
     height: 200px;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 
-
-
+#calidad {
+    box-shadow: 0px 5px 12px 2px rgba(0, 0, 0, .4);
+    position: relative;
+    z-index: 9;
+}
+#clientes {
+    box-shadow: 0px 5px 12px 2px rgba(0, 0, 0, .4);
+    position: relative;
+    z-index: 7;
+}
+#contacto {
+    box-shadow: 0px 5px 12px 2px rgba(0, 0, 0, .4);
+    position: relative;
+    z-index: 6;
+}
+#filosofia {
+    box-shadow: 0px 5px 12px 2px rgba(0, 0, 0, .4);
+    position: relative;
+    z-index: 10;
+}
+/*#map {
+    box-shadow: 0px 5px 12px 2px rgba(0, 0, 0, .4);
+    z-index: 5;
+}*/
+#servicios {
+    box-shadow: 0px 5px 12px 2px rgba(0, 0, 0, .4);
+    position: relative;
+    z-index: 8;
+}
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
+        background: rgba(45, 92, 153, 0.71);
         border-bottom: 0;
         letter-spacing: 1px;
-        background:0 0 ;/*#306088*/
+        /*background:0 0 ;*/
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
 
@@ -433,11 +484,24 @@ ul.banner-social-buttons {
         text-align: center;
     }
     #clientesCont figure {
+        display: inline-block;
+        height: 100%;
+        vertical-align: baseline;
         width: 30%;
     }
     #filosofia #filosofiaCont{
         margin-top: 5em;
         width: 40%;
+    }
+    #logoARG {
+        position: relative;
+        display: block;
+        left: 160%;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+        font-family: "HelveticaLT";
+        font-size: 2.5em;
     }
     #servicios #serviciosCont{
         width: 100%;
