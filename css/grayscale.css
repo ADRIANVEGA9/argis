@@ -340,11 +340,23 @@ ul.banner-social-buttons {
 }
 #clientesCont figure img {
     border-radius: .5em;
-    box-shadow: 0px 84px 25px -21px rgba(0, 0, 0, 0.2);
+    /*box-shadow: 0px 84px 25px -21px rgba(0, 0, 0, 0.2);*/
     margin: 0 0 1em 0;
     position: relative;
     z-index: 10;
 }
+    #clientesCont figure figcaption span {
+        box-shadow: 0px -25px 13px -5px rgba(0, 0, 0, 0.2);
+        border-radius: 50%;
+    }
+#contactoCont {
+    background: rgba(252, 252, 252, 0.4);
+    display: inline-block;
+    float: left;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+}    
 #filosofia #filosofiaCont {
     background: rgba(252, 252, 252, 0.4);
     display: inline-block;
@@ -436,6 +448,17 @@ ul.banner-social-buttons {
     position: relative;
     z-index: 8;
 }
+#contactanos {
+    position: fixed;
+    width: 180px;
+    margin: 10px;
+    padding: 20px 20px 20px;
+    background: #ED7B0C;
+    border: 2px solid #F7F5F4;
+    float: right;
+    top: 60px;
+}
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
