@@ -2,7 +2,7 @@
 $host = 'localhost';
 $dbnombre = 'argis';
 $dbusuario = 'Cerrajes';
-$dbpass = 'PRAXAIR1';
+$dbpass = 'CERRACO1.';
 //Eliminamos los errores de la pantalla
 	error_reporting(0);
 //Conectamos a MySQL
