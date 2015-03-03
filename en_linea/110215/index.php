@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+    <title>ARG industrial services</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"> -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+<script src="js/prefixfree.min.js"></script>
+  
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll arg" href="#page-top">
+                    ARG<span class="naranja"> industrial services</span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#filosofia">Filosofía</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#calidad">Sistema de calidad</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#servicios">Servicios</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#clientes">Clientes</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contacto">Contacto</a>
+                    </li>
+                    <li>
+                        <?php require '.contador.php';?>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- filosofia Section -->
+    <section id="filosofia" class="container content-section text-center intro">
+        <div id="filosofiaCont">
+            <h1 class="filosofiaR"> <span class="light tituloUp"> Nuestra </span><span class="naranja tituloDown">Filosofía</span></h1>
+            <section >
+                <span class="naranja">Política de calidad</span>
+                <article>Proporcionar el servicio de calidad apegado
+                procedimientos, para exceder las espectativas
+                de nuestros clientes.</article><br>
+                <span class="naranja">Misión</span>
+                <article>Proporcionar servicio de inspección de
+                materiales, retrabajos, reempaque y
+                subensambles a través de la representación
+                de proveedores extranjero o nacionales.</article><br>
+                <span class="naranja">Visión</span>
+                <article>Ser considerados por nuestros clientes la
+                mejor opción para cubrir sus necesidades de
+                Out Sourcing, a través de un equipo de gente
+                integrada y comprometida con las
+                necesidades del cliente. Logrando ser líderes
+                en el mercado nacional.</article><br>
+            </section>
+            <article id="logoARG" calss="arg">
+                <section>ARG<span class="naranja"> industrial services</span></section>
+            </article>
+        </div>
+    </section>
+
+    <!-- Sistema de calidad Section -->
+    <section id="calidad" class="container content-section text-center sistemaCalidad-section">
+        <div id="calidadCont">
+            <h2 class="calidadR"><span class="light tituloUp">Sistema</span> <span class="naranja tituloDown">de calidad</span></h2>
+            <section>
+                <span class="naranja">Sistema de calidad</span>
+                <article>Nuestro sistema de calidad esta basado en la norma ISO
+                9000, lo que nos permite ofrecer procesos robustos y
+                estandarizdos que aseguran la calidad de nuestro
+                servicio siendo nuestra principal herramienta la Mejora
+                Contínua.</article><br>
+                <figure><img src="img/logo-iso9000.png" alt=""></figure>
+                <span class="naranja">Información</span>
+                <article>Nuestro sistema de calidad permite proporcionar
+                información diaria sobre el desarrollo de las actividades a
+                través de reportes claros y adecuados a las necesidades
+                del cliente, estos reportes son enviados vía correo
+                electrónico.</article><br>
+            </section>
+        </div>
+    </section>
+
+    <!-- servicios Section -->
+    <section id="servicios" class="container content-section text-center servicios-section">
+        <div id="serviciosCont">
+            <h2 class="serviciosR"><span class="light tituloUp">Nuestros</span><span class="naranja tituloDown">Servicios</span></h2>
+            <div>
+                <section>
+                    <img src="img/servicios_01.jpg"><article><span class="naranja block">Representación de compañías</span>Representación de compañías externas y nacionales ante sus clientes que se encuentran fuera de su área de influencia.</article>
+                </section>
+                <section>
+                    <img src="img/servicios_02.jpg"><article><span class="naranja block">Sorteo y clasificación</span>Sorteo y clasificación de materiales (inspecciones 100%), como consecuencia de un problema de calidad certificamos material sospechoso, permitiendo la producción durante el periodo de análisis y solución del problema y hasta el arribo del punto de quiebre, esta actividad se puede realizar tanto dentro como fuera de las instalaciones del cliente.</article>
+                </section>
+                <section>
+                    <img src="img/servicios_03.jpg"><article><span class="naranja block">GP-12</span>Al arranque de una nueva línea productiva o a consecuencia de un proceso poco confiable, ofrecemos verificación 100% de condiciones críticas.</article>
+                </section>
+                <section>
+                    <img src="img/servicios_04.jpg"><article><span class="naranja block">Retrabajos</span>Retrabajos de materiales que a consecuencia de problemas de calidad requieren reparar su material.</article>
+                </section>
+                <section>
+                    <img src="img/servicios_05.jpg"><article><span class="naranja block">Reempaques</span>Reempaques de materiales a consecuencia de manejo o modificación de presentaciones en formatos específicos.</article>
+                </section>
+                <section>
+                    <img src="img/servicios_06.jpg"><article><span class="naranja block">Subensambles</span>Subensambles de componentes en operaciones paralelas.</article>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <!-- clientes Section -->
+    <section id="clientes" class="container content-section text-center clientes-section">
+        <div id="clientesCont">
+                <h2 class="clientesR"><span class="light tituloUp">Nuestros</span> <span class="naranja tituloDown">Clientes</span></h2>
+                <figure><img src="img/delphi.png"><figcaption><span>DELPHI STEERING SYSTEMS</span></figcaption></figure>
+                <figure><img src="img/dura.png"><figcaption><span>DURA AUTOMOTIVE SYSTEMS</span></figcaption></figure>
+                <figure><img src="img/autoliv.png"><figcaption><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AUTOLIV&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></figcaption></figure>
+                <figure><img src="img/elco.png"><figcaption><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELCO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></figcaption></figure>
+                <figure><img src="img/Trelleborg.png"><figcaption><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TRELLEBORG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></figcaption></figure>
+                <figure><img src="img/mann-hummel.png"><figcaption><span>MANN HUMMEL</span></figcaption></figure>
+                <figure><img src="img/felx-n-gate.png"><figcaption><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FLEX N GATE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></figcaption></figure>
+                <figure><img src="img/camcar.png"><figcaption><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CAMCAR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></figcaption></figure>
+        </div>
+    </section>
+
+    <!-- contacto Section -->
+    <section id="contacto" class="text-center contacto-section">
+        <div id="contactoCont" class="row">
+            <div >
+            <img src="img/fondo-contacto.png" alt="">
+<!--                  <h2>Contact Start Bootstrap</h2>
+                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
+                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+                </p>
+               <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                </ul> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <!-- <div id="map"></div> -->
+
+    <!-- Footer -->
+    <footer>
+<!--         <div class="container text-center">
+            <p>Copyright &copy; Your Website 2014</p>
+        </div> -->
+    </footer>
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
+</html>

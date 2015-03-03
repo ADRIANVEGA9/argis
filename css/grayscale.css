@@ -7,6 +7,10 @@
     font-family:'HelveticaLT';
     src: url('../fonts/HelveticaLTStd-BoldCond.otf')   format('opentype');
 }
+@font-face {
+    font-family:'HelveticaLTblk';
+    src: url('../fonts/HelveticaLTStd-BlkCond.otf')   format('opentype');
+}
 
 /*!
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
@@ -88,7 +92,13 @@ p {
         transform: scale(1);
     }
 }
-
+.contador {
+    color: rgb(234, 94, 43);
+    display: block;    
+    line-height: 20px;
+    padding: 10px 15px;
+    position: relative;
+}
 .light {
     font-size: .5em;
 }
@@ -200,7 +210,7 @@ p {
     /*padding-top: 100px;*/
 }
 .contacto-section img{
-    width: 97%;
+    width: 100%;
 }
 /*.contacto-section {
     background: url(../img/contact_bg.jpg) no-repeat center center scroll;
@@ -264,7 +274,7 @@ ul.banner-social-buttons {
 }
 
 .arg {
-    font-family: "HelveticaLT";
+    font-family: "HelveticaLTblk";
     font-size: 2.5em;
 }
 .arg .naranja {
@@ -294,6 +304,7 @@ ul.banner-social-buttons {
 .naranja {
     color: #EA5E2B;
     font-weight: bold;
+    letter-spacing: initial;
 }
 .tituloDown {
     position: relative;
@@ -304,7 +315,7 @@ ul.banner-social-buttons {
     top: -1.5em;
 }
 #calidad #calidadCont {
-    background: rgba(252, 252, 252, 0.4);
+    background: rgba(252, 252, 252, 0.5);
     display: inline-block;
     float: right;
     margin-top: 0;
@@ -316,6 +327,9 @@ ul.banner-social-buttons {
 }
 #calidad #calidadCont section article {
     text-align: justify;
+}
+#calidad #calidadCont section figure {
+    margin-bottom: 2em;
 }
 #calidad section {
     margin: 0 auto;
@@ -332,7 +346,7 @@ ul.banner-social-buttons {
 #clientesCont figure {
     display: inline-block;
     vertical-align: top;
-    width: 100%;
+    width: 40%;
 }
 #clientesCont figure figcaption {
     font-size: .8em;
@@ -352,13 +366,13 @@ ul.banner-social-buttons {
 #contactoCont {
     background: rgba(252, 252, 252, 0.4);
     display: inline-block;
-    float: left;
+    /*float: left;*/
     margin-top: 0;
     width: 100%;
     text-align: center;
 }    
 #filosofia #filosofiaCont {
-    background: rgba(252, 252, 252, 0.4);
+    background: rgba(252, 252, 252, 0.5);
     display: inline-block;
     float: left;
     margin-top: 0;
@@ -421,6 +435,7 @@ ul.banner-social-buttons {
 
 #calidad {
     box-shadow: 0px 5px 12px 2px rgba(0, 0, 0, .4);
+    padding: 0;
     position: relative;
     z-index: 9;
 }
@@ -436,6 +451,7 @@ ul.banner-social-buttons {
 }
 #filosofia {
     box-shadow: 0px 5px 12px 2px rgba(0, 0, 0, .4);
+    padding: 0;
     position: relative;
     z-index: 10;
 }
@@ -459,7 +475,11 @@ ul.banner-social-buttons {
     top: 60px;
 }
 
-@media(min-width:767px) {
+@media(min-width:992px) {
+    .contador {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
     .navbar {
         padding: 20px 0;
         background: rgba(45, 92, 153, 0.71);
@@ -523,7 +543,7 @@ ul.banner-social-buttons {
         padding: 0;
         margin: 0;
         text-align: right;
-        font-family: "HelveticaLT";
+        font-family: "HelveticaLTblk";
         font-size: 2.5em;
     }
     #servicios #serviciosCont{
@@ -532,10 +552,11 @@ ul.banner-social-buttons {
     }
     #serviciosCont section article {
         margin: 0;
+        min-height: 350px;
         padding: 2em .5em 1em;
         position: relative;
         top: -2.5em;
-        width: 78%;
+        width: 95%;
         z-index: 1;
     }
     #servicios section{
@@ -558,7 +579,32 @@ ul.banner-social-buttons {
     }
 }
 
+@media(min-width:1200px) {
+    #serviciosCont section article {
+        margin: 0;
+        min-height: 335px;
+        padding: 2em .5em 1em;
+        position: relative;
+        top: -2.5em;
+        width: 85%;
+        z-index: 1;
+    }
+}
+
+@media(min-width:1400px) {
+    #serviciosCont section article {
+        margin: 0;
+        min-height: 320px;
+        padding: 2em .5em 1em;
+        position: relative;
+        top: -2.5em;
+        width: 78%;
+        z-index: 1;
+    }
+}
+
 @media(max-width:767px) {
+
     ul.banner-social-buttons li {
         display: block;
         margin-bottom: 20px;
@@ -567,5 +613,19 @@ ul.banner-social-buttons {
 
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
+    }
+}
+@media(max-width:770px) {
+    #clientesCont figure {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    }
+}
+
+
+@media(max-width:352px) {
+    .arg {
+        font-size: 1.95em;
     }
 }

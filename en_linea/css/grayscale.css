@@ -1,0 +1,580 @@
+/*------------ @font-face ------------------*/
+@font-face {
+    font-family:'Titillium';
+    src: url('../fonts/Titillium_Web/Titillium-Regular.otf')   format('opentype'), url('../fonts/Titillium_Web/TitilliumWeb-Regular.ttf')   format('truetype');
+}
+@font-face {
+    font-family:'HelveticaLT';
+    src: url('../fonts/HelveticaLTStd-BoldCond.otf')   format('opentype');
+}
+
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+a {
+    color: #219ab3;
+    transition: all .2s ease-in-out;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #11505d;
+}
+body {
+    background-color: #fefefe;
+    color: #444;
+    font-family: 'Titillium';
+    font-size: 18px;
+    height: 100%;
+    width: 100%;
+    /*webkit-tap-highlight-color: rgba(255,255,255,.2);*/
+}
+footer {
+    padding: 50px 0;
+}
+
+footer p {
+    margin: 0;
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+img::selection {
+    background: 0 0;
+}
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+@-webkit-keyframes pulse {    
+    0 {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {    
+    0 {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.light {
+    font-size: .5em;
+}
+
+.navbar-custom {
+    background-color: #306088;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    margin-bottom: 0;
+}
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+.navbar-custom a {
+    color: #fff;
+}
+.navbar-custom .nav li.active {
+    outline: nonte;
+    background-color: rgba(255,255,255,.3);
+}
+.navbar-custom .nav li a {
+    transition: background .3s ease-in-out;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.3);
+}
+.navbar-toggle {
+    color: #FEFEFE;
+}
+
+.intro {
+    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background-size: cover;
+    display: table;
+    height: auto;
+    padding: 100px 0;
+    text-align: left;
+    width: 100%;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 35px;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
+.btn-circle i.animated {
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.clientes-section {    
+    background-color: #FEFEFE;
+    background-size: cover;
+    display: table;
+    height: auto;
+    text-align: left;
+    width: 100%;
+}
+
+.content-section {
+    /*padding-top: 100px;*/
+}
+.contacto-section img{
+    width: 100%;
+}
+/*.contacto-section {
+    background: url(../img/contact_bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    background-size: cover;
+    display: table;
+    height: auto;
+    text-align: left;
+    width: 100%;
+}*/
+
+.btn {
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: 1px solid #219ab3;
+    color: #219ab3;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #219ab3;
+    outline: 0;
+    color: #000;
+    background-color: #219ab3;
+}
+
+.servicios-section {
+    background: url(../img/servicios_bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    background-size: cover;
+    display: table;
+    height: auto;
+    text-align: left;
+    width: 100%;
+}
+
+.sistemaCalidad-section {
+    background: url(../img/sistemaCalidad_bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    background-size: cover;
+    display: table;
+    height: auto;
+    padding: 100px 0;
+    text-align: left;
+    width: 100%;
+}
+
+ul.banner-social-buttons {
+    margin-top: 0;
+}
+
+::selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
+}
+
+.arg {
+    font-family: "HelveticaLT";
+    font-size: 2.5em;
+}
+.arg .naranja {
+    font-size: .5em;
+}
+.block {
+    display: block;
+}
+.calidadR {
+    margin: 2em auto;
+    width: 80%;
+}
+.clientesR {
+    margin: 2em auto;
+    text-align: left;
+    width: 90%;
+}
+.filosofiaR {
+    margin: 2em auto;
+    width: 80%;
+}
+.serviciosR {
+    margin: 2em auto;
+    text-align: left;
+    width: 90%;
+}
+.naranja {
+    color: #EA5E2B;
+    font-weight: bold;
+    letter-spacing: initial;
+}
+.tituloDown {
+    position: relative;
+    left: -1.2em;
+}
+.tituloUp {
+    position: relative;
+    top: -1.5em;
+}
+#calidad #calidadCont {
+    background: rgba(252, 252, 252, 0.4);
+    display: inline-block;
+    float: right;
+    margin-top: 0;
+    padding: 1em 1em 2em;
+    width: 100%;
+}
+#calidad #calidadCont section  {
+    text-align: center;
+}
+#calidad #calidadCont section article {
+    text-align: justify;
+}
+#calidad section {
+    margin: 0 auto;
+    width: 75%;
+}
+#clientes #clientesCont {
+    background: rgba(252, 252, 252, 0.4);
+    display: inline-block;
+    float: left;
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+}
+#clientesCont figure {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+#clientesCont figure figcaption {
+    font-size: .8em;
+    padding: 1em 0;
+}
+#clientesCont figure img {
+    border-radius: .5em;
+    /*box-shadow: 0px 84px 25px -21px rgba(0, 0, 0, 0.2);*/
+    margin: 0 0 1em 0;
+    position: relative;
+    z-index: 10;
+}
+    #clientesCont figure figcaption span {
+        box-shadow: 0px -25px 13px -5px rgba(0, 0, 0, 0.2);
+        border-radius: 50%;
+    }
+#contactoCont {
+    background: rgba(252, 252, 252, 0.4);
+    display: inline-block;
+    /*float: left;*/
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+}    
+#filosofia #filosofiaCont {
+    background: rgba(252, 252, 252, 0.4);
+    display: inline-block;
+    float: left;
+    margin-top: 0;
+    padding: 1em 1em 2em;
+    width: 100%;
+}
+#filosofia section {
+    margin: 0 auto;
+    width: 75%;
+}
+#logoARG {
+    display: none;
+}
+#logoARG section {
+    padding: 0;
+    margin: 0;  
+    width: auto;  
+}
+#logoARG section  span {
+    font-size: .5em;
+}
+#servicios section {
+    display: inline-block;
+    font-size: .7em;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+#servicios #serviciosCont {
+    background: rgba(252, 252, 252, 0.4);
+    display: inline-block;
+    float: left;
+    margin-top: 0;
+    width: 100%;
+}
+#serviciosCont section article span {
+    padding: 1em 0;
+}
+#serviciosCont section article {
+    background: rgba(163, 209, 242, 0.3);
+    border-radius: .5em;
+    display: inline-block;
+    margin: 0 0 2em 1em;
+    padding: 0 .5em 1em;
+    vertical-align: top;
+    width: 75%;
+}
+#serviciosCont section img {
+    border-radius: .5em;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, .4);
+    position: relative;
+    z-index: 10;
+}
+#map {
+    width: 100%;
+    height: 200px;
+    /*margin-top: 100px;*/
+}
+
+#calidad {
+    box-shadow: 0px 5px 12px 2px rgba(0, 0, 0, .4);
+    position: relative;
+    z-index: 9;
+}
+#clientes {
+    box-shadow: 0px 5px 12px 2px rgba(0, 0, 0, .4);
+    position: relative;
+    z-index: 7;
+}
+#contacto {
+    box-shadow: 0px 5px 12px 2px rgba(0, 0, 0, .4);
+    position: relative;
+    z-index: 6;
+}
+#filosofia {
+    box-shadow: 0px 5px 12px 2px rgba(0, 0, 0, .4);
+    position: relative;
+    z-index: 10;
+}
+/*#map {
+    box-shadow: 0px 5px 12px 2px rgba(0, 0, 0, .4);
+    z-index: 5;
+}*/
+#servicios {
+    box-shadow: 0px 5px 12px 2px rgba(0, 0, 0, .4);
+    position: relative;
+    z-index: 8;
+}
+#contactanos {
+    position: fixed;
+    width: 180px;
+    margin: 10px;
+    padding: 20px 20px 20px;
+    background: #ED7B0C;
+    border: 2px solid #F7F5F4;
+    float: right;
+    top: 60px;
+}
+
+@media(min-width:992px) {
+    .navbar {
+        padding: 20px 0;
+        background: rgba(45, 92, 153, 0.71);
+        border-bottom: 0;
+        letter-spacing: 1px;
+        /*background:0 0 ;*/
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #2D5C99;;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(255,255,255,.3);
+    }
+    .intro {
+        height: auto%;
+        padding: 0;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 25px;
+    }
+    .servicios-section {
+        height: auto;
+        max-height: 100%;
+        padding: 0;
+    }
+    .sistemaCalidad-section {
+        height: auto;
+        max-height: 100%;
+        padding: 0;
+    }
+    #calidad #calidadCont{
+        width: 40%;
+    }
+    #clientes #clientesCont{
+        width: 100%;
+        text-align: center;
+    }
+    #clientesCont figure {
+        display: inline-block;
+        height: 100%;
+        vertical-align: baseline;
+        width: 30%;
+    }
+    #filosofia #filosofiaCont{
+        margin-top: 5em;
+        width: 40%;
+    }
+    #logoARG {
+        position: relative;
+        display: block;
+        left: 160%;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+        font-family: "HelveticaLT";
+        font-size: 2.5em;
+    }
+    #servicios #serviciosCont{
+        width: 100%;
+        text-align: center;
+    }
+    #serviciosCont section article {
+        margin: 0;
+        padding: 2em .5em 1em;
+        position: relative;
+        top: -2.5em;
+        width: 78%;
+        z-index: 1;
+    }
+    #servicios section{
+        width: 16%;
+    }
+    #map {
+        height: 400px;
+        margin-top: 250px;
+    }
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+
+    ul.banner-social-buttons li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons li:last-child {
+        margin-bottom: 0;
+    }
+}
+@media(max-width:770px) {
+    #clientesCont figure {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    }
+}
